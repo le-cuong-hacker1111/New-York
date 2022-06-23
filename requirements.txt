@@ -19,5 +19,4 @@ psutil
 flask
 golang
 
-golang
 
