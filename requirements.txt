@@ -11,4 +11,13 @@ scapy
 argparse
 wget
 humanfriendly
-argparse
+icmplib
+pystyle
+dnspython
+shutup
+psutil
+flask
+golang
+
+golang
+
