@@ -1,0 +1,14 @@
+httpx
+pysocks
+socks
+cloudscraper
+colorama
+undetected_chromedriver
+requests urllib3
+pysocks5
+requests
+scapy
+argparse
+wget
+humanfriendly
+argparse
