@@ -6,15 +6,7 @@ colorama
 undetected_chromedriver
 pysocks5
 requests
-scapy
-argparse
-wget
-humanfriendly
-icmplib
-pystyle
 dnspython
 shutup
-psutil
-flask
 
 
