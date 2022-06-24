@@ -35,16 +35,9 @@ if os.name == "nt":
     pass
 else:
     os.system("wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb")
-    os.system("sudo apt-get install ./google-chrome-stable_current_amd64.deb")
-    os.system("sudo apt-get install golang")
-    os.system("sudo apt-get install python3")
-    os.system("sudo apt-get install python2")
-    os.system("sudo apt-get install python3-pip")
-    os.system("sudo apt-get install nodejs")
-    os.system("sudo apt-get install perl")
-    os.system("sudo apt-get install npm")
-    
-print("Done.")    
+    os.system("sudo apt-get install ./google-chrome-stable_current_amd64.deb"
+
+print("DONE!")    
 
 
 
