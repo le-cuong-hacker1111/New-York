@@ -16,5 +16,4 @@ NOTICE: For bypass work need install lastest verion Chrome
  https://zalo.me/0765698140
 ```
 
-
-https://photos.app.goo.gl/koQnhiBdMrRm9zH68
+https://www.linkpicture.com/view.php?img=LPic62b50a5aaa7af1485204915
