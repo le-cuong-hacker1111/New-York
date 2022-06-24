@@ -16,4 +16,4 @@ NOTICE: For bypass work need install lastest verion Chrome
  https://zalo.me/0765698140
 ```
 
-https://www.linkpicture.com/view.php?img=LPic62b50a5aaa7af1485204915
+[![image](https://www.linkpicture.com/q/tải-xuống-1_3.jpeg)](https://www.linkpicture.com/view.php?img=LPic62b50a5aaa7af1485204915)
