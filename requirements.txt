@@ -4,7 +4,6 @@ socks
 cloudscraper
 colorama
 undetected_chromedriver
-requests urllib3
 pysocks5
 requests
 scapy
@@ -17,6 +16,5 @@ dnspython
 shutup
 psutil
 flask
-golang
 
 
